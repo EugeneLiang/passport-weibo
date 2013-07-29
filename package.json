@@ -3,9 +3,9 @@
   "version": "0.2.0",
   "description": "Weibo authentication strategy for Passport.",
   "author": "Andy Shang <andy.amuro@gmail.com>",
-  "contributors": [{
+  "contributors": [
     "Xiaoxing Wang <xiaohwan@gmail.com>"
-  }],
+  ],
   "repository": {
     "type": "git",
     "url": "http://github.com/xiaohwan/passport-weibo.git"
@@ -24,7 +24,9 @@
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
   "licenses": [{
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT" 
