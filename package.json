@@ -1,14 +1,17 @@
 {
   "name": "passport-weibo",
-  "version": "0.0.1",
-  "description": "weibo authentication strategy for Passport.",
-  "author": { "name": "Andy Shang", "email": "andy.amuro@gmail.com", "url": "http://github.com/andyshang" },
+  "version": "0.2.0",
+  "description": "Weibo authentication strategy for Passport.",
+  "author": "Andy Shang <andy.amuro@gmail.com>",
+  "contributors": [{
+    "Xiaoxing Wang <xiaohwan@gmail.com>"
+  }],
   "repository": {
     "type": "git",
-    "url": "http://github.com/andyshang/passport-weibo.git"
+    "url": "http://github.com/xiaohwan/passport-weibo.git"
   },
   "bugs": {
-    "url": "http://github.com/andyshang/passport-weibo/issues"
+    "url": "http://github.com/xiaohwan/passport-weibo/issues"
   },
   "main": "./lib/passport-weibo",
   "dependencies": {
@@ -22,9 +25,16 @@
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
   "engines": { "node": ">= 0.4.0" },
-  "licenses": [ {
+  "licenses": [{
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
-  "keywords": ["passport", "weibo", "auth", "authn", "authentication", "identity"]
+  }],
+  "keywords": [
+    "passport",
+    "weibo",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ]
 }
